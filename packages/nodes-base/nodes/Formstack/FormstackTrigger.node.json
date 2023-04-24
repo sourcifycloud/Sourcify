@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.formstackTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/formstackTrigger"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.formstacktrigger/"
+			}
+		]
+	}
+}

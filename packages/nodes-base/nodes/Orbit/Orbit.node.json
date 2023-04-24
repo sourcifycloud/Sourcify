@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.orbit",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/orbit"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.orbit/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Migrating Community Metrics to Orbit using sourcify",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/migrating-community-metrics-to-orbit-using-sourcify/"
+			}
+		]
+	}
+}

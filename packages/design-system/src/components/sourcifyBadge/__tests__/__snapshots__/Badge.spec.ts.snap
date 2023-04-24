@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`components > sourcifyBadge > props > should render default theme correctly 1`] = `"<span class=\\"sourcify-badge default\\"><sourcify-text-stub bold=\\"true\\" size=\\"large\\" compact=\\"true\\" tag=\\"span\\"><sourcify-text-stub size=\\"medium\\" tag=\\"span\\">Default badge</sourcify-text-stub></sourcify-text-stub></span>"`;
+
+exports[`components > sourcifyBadge > props > should render secondary theme correctly 1`] = `"<span class=\\"sourcify-badge secondary\\"><sourcify-text-stub size=\\"medium\\" compact=\\"true\\" tag=\\"span\\"><sourcify-text-stub size=\\"medium\\" tag=\\"span\\">Secondary badge</sourcify-text-stub></sourcify-text-stub></span>"`;
+
+exports[`components > sourcifyBadge > props > should render with default values correctly 1`] = `"<span class=\\"sourcify-badge default\\"><sourcify-text-stub size=\\"small\\" compact=\\"true\\" tag=\\"span\\"><sourcify-text-stub size=\\"medium\\" tag=\\"span\\">A Badge</sourcify-text-stub></sourcify-text-stub></span>"`;

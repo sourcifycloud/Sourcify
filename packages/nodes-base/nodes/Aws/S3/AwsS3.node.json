@@ -1,0 +1,29 @@
+{
+	"node": "sourcify-nodes-base.awsS3",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/aws"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.awss3/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with sourcify can change your daily life",
+				"icon": "🧬",
+				"url": "https://sourcify.io/blog/why-business-process-automation-with-sourcify-can-change-your-daily-life/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://sourcify.io/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

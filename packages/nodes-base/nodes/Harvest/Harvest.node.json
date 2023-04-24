@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.harvest",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/harvest"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.harvest/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://sourcify.io/blog/no-code-ecommerce-workflow-automations/"
+			}
+		]
+	}
+}

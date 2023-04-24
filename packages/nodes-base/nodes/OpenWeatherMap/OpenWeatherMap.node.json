@@ -1,0 +1,30 @@
+{
+	"node": "sourcify-nodes-base.openWeatherMap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/openWeatherMap"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.openweathermap/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://sourcify.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Creating Telegram Bots with sourcify, a No-Code Platform",
+				"icon": "💬",
+				"url": "https://sourcify.io/blog/creating-telegram-bots-with-sourcify-a-no-code-platform/"
+			}
+		]
+	}
+}

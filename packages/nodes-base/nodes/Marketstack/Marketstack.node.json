@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.marketstack",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Analytics", "Finance & Accounting"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/marketstack"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.marketstack/"
+			}
+		]
+	}
+}

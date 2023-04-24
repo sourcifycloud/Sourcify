@@ -1,0 +1,24 @@
+{
+	"node": "sourcify-nodes-base.spreadsheetFile",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.spreadsheetfile/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Build your own virtual assistant with sourcify: A step by step guide",
+				"icon": "👦",
+				"url": "https://sourcify.io/blog/build-your-own-virtual-assistant-with-sourcify-a-step-by-step-guide/"
+			}
+		]
+	},
+	"alias": ["CSV", "Spreadsheet", "Excel", "xls", "xlsx", "ods"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

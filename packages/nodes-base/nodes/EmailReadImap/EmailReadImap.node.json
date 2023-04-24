@@ -1,0 +1,28 @@
+{
+	"node": "sourcify-nodes-base.emailReadImap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Core Nodes"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/imap"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.emailimap/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Build your own virtual assistant with sourcify: A step by step guide",
+				"icon": "👦",
+				"url": "https://sourcify.io/blog/build-your-own-virtual-assistant-with-sourcify-a-step-by-step-guide/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Helpers", "Other Trigger Nodes"]
+	}
+}

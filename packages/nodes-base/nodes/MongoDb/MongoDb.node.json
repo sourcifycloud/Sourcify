@@ -1,0 +1,40 @@
+{
+	"node": "sourcify-nodes-base.mongoDb",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/mongoDb"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.mongodb/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with sourcify can change your daily life",
+				"icon": "🧬",
+				"url": "https://sourcify.io/blog/why-business-process-automation-with-sourcify-can-change-your-daily-life/"
+			},
+			{
+				"label": "Running sourcify on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://sourcify.io/blog/running-sourcify-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://sourcify.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-sourcify/"
+			},
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://sourcify.io/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			}
+		]
+	}
+}

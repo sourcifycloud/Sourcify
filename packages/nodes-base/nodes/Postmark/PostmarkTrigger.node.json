@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.postmarkTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/postmark"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.postmarktrigger/"
+			}
+		]
+	}
+}

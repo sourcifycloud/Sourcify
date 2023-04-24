@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.freshworksCrm",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/freshworksCrm"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.freshworkscrm/"
+			}
+		]
+	},
+	"alias": ["Freshdesk"]
+}

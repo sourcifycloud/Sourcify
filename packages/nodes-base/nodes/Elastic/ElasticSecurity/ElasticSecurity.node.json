@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.elasticSecurity",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/elasticSecurity"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.elasticsecurity/"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.questDb",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/questDb"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.questdb/"
+			}
+		],
+		"generic": [
+			{
+				"label": "A low-code bitcoin ticker built with QuestDB and sourcify.io",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/a-low-code-bitcoin-ticker-built-with-questdb-and-sourcifycloud/"
+			}
+		]
+	}
+}

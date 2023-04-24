@@ -1,0 +1,21 @@
+// Vitest Snapshot v1
+
+exports[`components > sourcifyActionDropdown > should render custom styling correctly 1`] = `
+"<div class=\\"action-dropdown-container actionDropdownContainer\\">
+  <el-dropdown-stub trigger=\\"click\\" size=\\"\\" hideonclick=\\"true\\" placement=\\"bottom\\" visiblearrow=\\"true\\" showtimeout=\\"250\\" hidetimeout=\\"150\\" tabindex=\\"0\\">
+    <div class=\\"activator\\">
+      <sourcify-icon-stub icon=\\"ellipsis-v\\" size=\\"medium\\"></sourcify-icon-stub>
+    </div>
+  </el-dropdown-stub>
+</div>"
+`;
+
+exports[`components > sourcifyActionDropdown > should render default styling correctly 1`] = `
+"<div class=\\"action-dropdown-container actionDropdownContainer\\">
+  <el-dropdown-stub trigger=\\"click\\" size=\\"\\" hideonclick=\\"true\\" placement=\\"bottom\\" visiblearrow=\\"true\\" showtimeout=\\"250\\" hidetimeout=\\"150\\" tabindex=\\"0\\">
+    <div class=\\"activator\\">
+      <sourcify-icon-stub icon=\\"ellipsis-v\\" size=\\"medium\\"></sourcify-icon-stub>
+    </div>
+  </el-dropdown-stub>
+</div>"
+`;

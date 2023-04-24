@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`sourcifyActionBox > should render correctly 1`] = `
+"<div data-test-id=\\"action-box\\" class=\\"sourcify-action-box container\\">
+  <div class=\\"emoji\\"> 😿 </div>
+  <div class=\\"heading\\">
+    <sourcify-heading-stub tag=\\"span\\" size=\\"xlarge\\" align=\\"center\\">Headline you need to know</sourcify-heading-stub>
+  </div>
+  <div class=\\"description\\">
+    <sourcify-text-stub size=\\"medium\\" color=\\"text-base\\" tag=\\"span\\"><span>Long description that you should know something is the way it is because of how it is. </span></sourcify-text-stub>
+  </div>
+  <sourcify-button-stub label=\\"Do something\\" type=\\"primary\\" size=\\"large\\"></sourcify-button-stub>
+  <!---->
+</div>"
+`;

@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.togglTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/toggl"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.toggltrigger/"
+			}
+		]
+	}
+}

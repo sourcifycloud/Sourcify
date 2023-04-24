@@ -1,0 +1,28 @@
+{
+	"node": "sourcify-nodes-base.rssFeedRead",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.rssfeedread/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with sourcify can change your daily life",
+				"icon": "🧬",
+				"url": "https://sourcify.io/blog/why-business-process-automation-with-sourcify-can-change-your-daily-life/"
+			},
+			{
+				"label": "Why I chose sourcify over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://sourcify.io/blog/why-i-chose-sourcify-over-zapier-in-2020/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.scheduleTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.scheduletrigger/"
+			}
+		],
+		"generic": []
+	},
+	"alias": ["Time", "Scheduler", "Polling", "Cron", "Interval"],
+	"subcategories": {
+		"Core Nodes": ["Flow"]
+	}
+}

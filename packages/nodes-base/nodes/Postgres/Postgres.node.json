@@ -1,0 +1,50 @@
+{
+	"node": "sourcify-nodes-base.postgres",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/postgres"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.postgres/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s sourcify journey",
+				"icon": "❤️",
+				"url": "https://sourcify.io/blog/love-at-first-sight-ricardos-sourcify-journey/"
+			},
+			{
+				"label": "Why I chose sourcify over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://sourcify.io/blog/why-i-chose-sourcify-over-zapier-in-2020/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with sourcify",
+				"icon": "📡",
+				"url": "https://sourcify.io/blog/database-monitoring-and-alerting-with-sourcify/"
+			},
+			{
+				"label": "Running sourcify on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://sourcify.io/blog/running-sourcify-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://sourcify.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-sourcify/"
+			},
+			{
+				"label": "How Honest Burgers Use Automation to Save $100k per year",
+				"icon": "🍔",
+				"url": "https://sourcify.io/blog/how-honest-burgers-use-automation-to-save-100k-per-year/"
+			}
+		]
+	}
+}

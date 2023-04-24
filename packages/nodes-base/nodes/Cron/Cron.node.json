@@ -1,0 +1,135 @@
+{
+	"node": "sourcify-nodes-base.cron",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "The Cron node uses Cron under the hood - a time-based job scheduler in Unix-like computer operating systems. Use this node when you want to trigger workflows periodically, especially in more complex scenarios like \"every Tuesday at 9 am\" or \"Weekdays\".",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.scheduletrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021 Goals: Level Up Your Vocabulary With Vonage and sourcify",
+				"icon": "🎯",
+				"url": "https://sourcify.io/blog/2021-goals-level-up-your-vocabulary-with-vonage-and-sourcify/"
+			},
+			{
+				"label": "Love at first sight: Ricardo’s sourcify journey",
+				"icon": "❤️",
+				"url": "https://sourcify.io/blog/love-at-first-sight-ricardos-sourcify-journey/"
+			},
+			{
+				"label": "2021: The Year to Automate the New You with sourcify",
+				"icon": "☀️",
+				"url": "https://sourcify.io/blog/2021-the-year-to-automate-the-new-you-with-sourcify/"
+			},
+			{
+				"label": "Why business process automation with sourcify can change your daily life",
+				"icon": "🧬",
+				"url": "https://sourcify.io/blog/why-business-process-automation-with-sourcify-can-change-your-daily-life/"
+			},
+			{
+				"label": "Why I chose sourcify over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://sourcify.io/blog/why-i-chose-sourcify-over-zapier-in-2020/"
+			},
+			{
+				"label": "How to host virtual coffee breaks with sourcify",
+				"icon": "☕️",
+				"url": "https://sourcify.io/blog/how-to-host-virtual-coffee-breaks-with-sourcify/"
+			},
+			{
+				"label": "Automatically pulling and visualizing data with sourcify",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/automatically-pulling-and-visualizing-data-with-sourcify/"
+			},
+			{
+				"label": "How to synchronize data between two systems (one-way vs. two-way sync",
+				"icon": "🏬",
+				"url": "https://sourcify.io/blog/how-to-sync-data-between-two-systems/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with sourcify",
+				"icon": "📡",
+				"url": "https://sourcify.io/blog/database-monitoring-and-alerting-with-sourcify/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://sourcify.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-sourcify/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://sourcify.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "Celebrating World Poetry Day with a daily poem in Telegram",
+				"icon": "📜",
+				"url": "https://sourcify.io/blog/world-poetry-day-workflow/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://sourcify.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Automate Designs with Bannerbear and sourcify",
+				"icon": "🎨",
+				"url": "https://sourcify.io/blog/automate-designs-with-bannerbear-and-sourcify/"
+			},
+			{
+				"label": "Tracking Time Spent in Meetings With Google Calendar, Twilio, and sourcify",
+				"icon": "🗓",
+				"url": "https://sourcify.io/blog/tracking-time-spent-in-meetings-with-google-calendar-twilio-and-sourcify/"
+			},
+			{
+				"label": "Creating Error Workflows in sourcify",
+				"icon": "🌪",
+				"url": "https://sourcify.io/blog/creating-error-workflows-in-sourcify/"
+			},
+			{
+				"label": "Using Automation to Boost Productivity in the Workplace",
+				"icon": "💪",
+				"url": "https://sourcify.io/blog/using-automation-to-boost-productivity-in-the-workplace/"
+			},
+			{
+				"label": "Why this Product Manager loves workflow automation with sourcify",
+				"icon": "🧠",
+				"url": "https://sourcify.io/blog/why-this-product-manager-loves-workflow-automation-with-sourcify/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and sourcify ",
+				"icon": "🙌",
+				"url": "https://sourcify.io/blog/sending-automated-congratulations-with-google-sheets-twilio-and-sourcify/"
+			},
+			{
+				"label": "A low-code bitcoin ticker built with QuestDB and sourcify.io",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/a-low-code-bitcoin-ticker-built-with-questdb-and-sourcifycloud/"
+			},
+			{
+				"label": "Benefits of automation and sourcify: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://sourcify.io/blog/benefits-of-automation-and-sourcify-an-interview-with-hubspots-hugh-durkin/"
+			},
+			{
+				"label": "Creating scheduled text affirmations with sourcify",
+				"icon": "🤟",
+				"url": "https://sourcify.io/blog/creating-scheduled-text-affirmations-with-sourcify/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 sourcify workflows",
+				"icon": "🛵",
+				"url": "https://sourcify.io/blog/how-goomer-automated-their-operations-with-over-200-sourcify-workflows/"
+			}
+		]
+	},
+	"alias": ["Time", "Scheduler", "Polling", "Cron", "Interval"],
+	"subcategories": {
+		"Core Nodes": ["Flow"]
+	}
+}

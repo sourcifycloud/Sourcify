@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.matrix",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/matrix"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.matrix/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with sourcify",
+				"icon": "☕️",
+				"url": "https://sourcify.io/blog/how-to-host-virtual-coffee-breaks-with-sourcify/"
+			}
+		]
+	}
+}

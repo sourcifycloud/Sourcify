@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.hunter",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/hunter"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.hunter/"
+			}
+		]
+	}
+}

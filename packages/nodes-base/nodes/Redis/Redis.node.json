@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.redis",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/redis"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.redis/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why this Product Manager loves workflow automation with sourcify",
+				"icon": "🧠",
+				"url": "https://sourcify.io/blog/why-this-product-manager-loves-workflow-automation-with-sourcify/"
+			}
+		]
+	}
+}

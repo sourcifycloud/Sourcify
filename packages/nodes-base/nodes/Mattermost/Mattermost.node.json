@@ -1,0 +1,73 @@
+{
+	"node": "sourcify-nodes-base.mattermost",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/mattermost"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.mattermost/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with sourcify",
+				"icon": "☕️",
+				"url": "https://sourcify.io/blog/how-to-host-virtual-coffee-breaks-with-sourcify/"
+			},
+			{
+				"label": "Supercharging your conference registration process with sourcify",
+				"icon": "🎫",
+				"url": "https://sourcify.io/blog/supercharging-your-conference-registration-process-with-sourcify/"
+			},
+			{
+				"label": "Creating triggers for sourcify workflows using polling",
+				"icon": "⏲",
+				"url": "https://sourcify.io/blog/creating-triggers-for-sourcify-workflows-using-polling/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://sourcify.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://sourcify.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "The ultimate guide to automate your video collaboration with Whereby, Mattermost, and sourcify",
+				"icon": "📹",
+				"url": "https://sourcify.io/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-sourcify/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at sourcify",
+				"icon": "🤖",
+				"url": "https://sourcify.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-sourcify/"
+			},
+			{
+				"label": "Creating Error Workflows in sourcify",
+				"icon": "🌪",
+				"url": "https://sourcify.io/blog/creating-error-workflows-in-sourcify/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://sourcify.io/blog/creating-custom-incident-response-workflows-with-sourcify/"
+			},
+			{
+				"label": "Learn how to use webhooks with Mattermost slash commands",
+				"icon": "🦄",
+				"url": "https://sourcify.io/blog/learn-how-to-use-webhooks-with-mattermost-slash-commands/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://sourcify.io/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

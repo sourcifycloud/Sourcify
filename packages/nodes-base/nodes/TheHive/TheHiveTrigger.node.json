@@ -1,0 +1,13 @@
+{
+	"node": "sourcify-nodes-base.theHiveTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.thehivetrigger/"
+			}
+		]
+	}
+}

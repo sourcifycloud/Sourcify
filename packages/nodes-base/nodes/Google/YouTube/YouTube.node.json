@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.youTube",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.youtube/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Using Automation to Boost Productivity in the Workplace",
+				"icon": "💪",
+				"url": "https://sourcify.io/blog/using-automation-to-boost-productivity-in-the-workplace/"
+			}
+		]
+	}
+}

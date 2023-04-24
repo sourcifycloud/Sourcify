@@ -1,0 +1,24 @@
+{
+	"node": "sourcify-nodes-base.awsTextract",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/aws"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.awstextract/"
+			}
+		],
+		"generic": [
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://sourcify.io/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

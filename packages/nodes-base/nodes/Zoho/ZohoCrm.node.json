@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.zohoCrm",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/zoho"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.zohocrm/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://sourcify.io/blog/no-code-ecommerce-workflow-automations/"
+			}
+		]
+	}
+}

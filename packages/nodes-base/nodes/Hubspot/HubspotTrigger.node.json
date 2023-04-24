@@ -1,0 +1,30 @@
+{
+	"node": "sourcify-nodes-base.hubspotTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/hubspot"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.hubspottrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://sourcify.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "Benefits of automation and sourcify: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://sourcify.io/blog/benefits-of-automation-and-sourcify-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

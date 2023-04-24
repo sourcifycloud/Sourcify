@@ -1,0 +1,40 @@
+{
+	"node": "sourcify-nodes-base.github",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/github"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.github/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automatically pulling and visualizing data with sourcify",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/automatically-pulling-and-visualizing-data-with-sourcify/"
+			},
+			{
+				"label": "How to automatically manage contributions to open-source projects",
+				"icon": "🏷️",
+				"url": "https://sourcify.io/blog/automation-for-maintainers-of-open-source-projects/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at sourcify",
+				"icon": "🤖",
+				"url": "https://sourcify.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-sourcify/"
+			},
+			{
+				"label": "How to set up a no-code CI/CD pipeline with GitHub and TravisCI",
+				"icon": "🎡",
+				"url": "https://sourcify.io/blog/how-to-set-up-a-ci-cd-pipeline-with-no-code/"
+			}
+		]
+	}
+}

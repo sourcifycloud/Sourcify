@@ -1,0 +1,105 @@
+name: Run test workflows
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-test-workflows:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 30
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: sourcify
+
+      - name: Checkout workflows repo
+        uses: actions/checkout@v3
+        with:
+          repository: sourcifycloud/test-workflows
+          path: test-workflows
+
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 8.1.0
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+          cache-dependency-path: 'sourcify/pnpm-lock.yaml'
+
+      - name: Install dependencies
+        run: |
+          sudo apt update -y
+          echo 'tzdata tzdata/Areas select Europe' | sudo debconf-set-selections
+          echo 'tzdata tzdata/Zones/Europe select Paris' | sudo debconf-set-selections
+          DEBIAN_FRONTEND="noninteractive" sudo apt-get install -y graphicsmagick
+        shell: bash
+
+      - name: pnpm install and build
+        working-directory: sourcify
+        run: |
+          pnpm install
+          pnpm build
+        shell: bash
+
+      - name: Import credentials
+        run: sourcify/packages/cli/bin/sourcify import:credentials --input=test-workflows/credentials.json
+        shell: bash
+        env:
+          sourcify_ENCRYPTION_KEY: ${{secrets.ENCRYPTION_KEY}}
+
+      - name: Import workflows
+        run: sourcify/packages/cli/bin/sourcify import:workflow --separate --input=test-workflows/workflows
+        shell: bash
+        env:
+          sourcify_ENCRYPTION_KEY: ${{secrets.ENCRYPTION_KEY}}
+
+      - name: Copy static assets
+        run: |
+          cp sourcify/assets/sourcify-logo.png /tmp/sourcify-logo.png
+          cp sourcify/assets/sourcify-screenshot.png /tmp/sourcify-screenshot.png
+          cp sourcify/node_modules/pdf-parse/test/data/05-versions-space.pdf /tmp/05-versions-space.pdf
+          cp sourcify/node_modules/pdf-parse/test/data/04-valid.pdf /tmp/04-valid.pdf
+        shell: bash
+
+      - name: Run tests
+        run: sourcify/packages/cli/bin/sourcify executeBatch --shallow --skipList=test-workflows/skipList.txt --shortOutput --concurrency=16 --compare=test-workflows/snapshots
+        shell: bash
+        env:
+          sourcify_ENCRYPTION_KEY: ${{secrets.ENCRYPTION_KEY}}
+          SKIP_STATISTICS_EVENTS: true
+      # -
+      #   name: Export credentials
+      #   if: always()
+      #   run: sourcify/packages/cli/bin/sourcify export:credentials --output=test-workflows/credentials.json --all --pretty
+      #   shell: bash
+      #   env:
+      #     sourcify_ENCRYPTION_KEY: ${{secrets.ENCRYPTION_KEY}}
+      # -
+      #   name: Commit and push credential changes
+      #   if: always()
+      #   run: |
+      #     cd test-workflows
+      #     git config --global user.name 'sourcify test bot'
+      #     git config --global user.email 'sourcify-test-bot@users.noreply.github.com'
+      #     git commit -am "Automated credential update"
+      #     git push --force --quiet "https://janober:${{ secrets.TOKEN }}@github.com/sourcifycloud/test-workflows.git" main:main
+
+      - name: Notify Slack on failure
+        uses: act10ns/slack@v2.0.0
+        if: failure()
+        with:
+          status: ${{ job.status }}
+          channel: '#updates-build-alerts'
+          webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          message: Test workflows failed (${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})

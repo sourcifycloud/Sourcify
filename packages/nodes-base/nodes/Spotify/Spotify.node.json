@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.spotify",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/spotify"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.spotify/"
+			}
+		]
+	},
+	"alias": ["Music", "Song"]
+}

@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.wufooTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/wufoo"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.wufootrigger/"
+			}
+		]
+	},
+	"alias": ["Form"]
+}

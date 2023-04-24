@@ -1,0 +1,30 @@
+{
+	"node": "sourcify-nodes-base.mautic",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/mautic"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.mautic/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How a digital strategist uses sourcify for online marketing",
+				"icon": "💻",
+				"url": "https://sourcify.io/blog/how-a-digital-strategist-uses-sourcify-for-online-marketing/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			}
+		]
+	}
+}

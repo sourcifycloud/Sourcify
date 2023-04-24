@@ -1,0 +1,61 @@
+{
+	"node": "sourcify-nodes-base.twilio",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/twilio"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.twilio/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s sourcify journey",
+				"icon": "❤️",
+				"url": "https://sourcify.io/blog/love-at-first-sight-ricardos-sourcify-journey/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with sourcify",
+				"icon": "📡",
+				"url": "https://sourcify.io/blog/database-monitoring-and-alerting-with-sourcify/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and sourcify",
+				"icon": "🧾",
+				"url": "https://sourcify.io/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-sourcify/"
+			},
+			{
+				"label": "Tracking Time Spent in Meetings With Google Calendar, Twilio, and sourcify",
+				"icon": "🗓",
+				"url": "https://sourcify.io/blog/tracking-time-spent-in-meetings-with-google-calendar-twilio-and-sourcify/"
+			},
+			{
+				"label": "Creating Error Workflows in sourcify",
+				"icon": "🌪",
+				"url": "https://sourcify.io/blog/creating-error-workflows-in-sourcify/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and sourcify ",
+				"icon": "🙌",
+				"url": "https://sourcify.io/blog/sending-automated-congratulations-with-google-sheets-twilio-and-sourcify/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://sourcify.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and sourcify",
+				"icon": "📱",
+				"url": "https://sourcify.io/blog/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-sourcify/"
+			}
+		]
+	},
+	"alias": ["SMS", "Phone", "Voice"]
+}

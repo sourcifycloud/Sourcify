@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.git",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/git"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.git/"
+			}
+		]
+	},
+	"subcategories": ["Helpers"]
+}

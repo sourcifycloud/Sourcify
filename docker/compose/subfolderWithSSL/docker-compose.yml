@@ -1,0 +1,55 @@
+version: '3'
+
+services:
+  traefik:
+    image: 'traefik'
+    command:
+      - '--api=true'
+      - '--api.insecure=true'
+      - '--api.dashboard=true'
+      - '--providers.docker=true'
+      - '--providers.docker.exposedbydefault=false'
+      - '--entrypoints.websecure.address=:443'
+      - '--certificatesresolvers.mytlschallenge.acme.tlschallenge=true'
+      - '--certificatesresolvers.mytlschallenge.acme.email=${SSL_EMAIL}'
+      - '--certificatesresolvers.mytlschallenge.acme.storage=/letsencrypt/acme.json'
+    ports:
+      - '443:443'
+      - '80:80'
+    volumes:
+      - ${DATA_FOLDER}/letsencrypt:/letsencrypt
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+  sourcify:
+    image: docker.sourcify.io/sourcifyio/sourcify
+    ports:
+      - '127.0.0.1:5678:5678'
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.sourcify.rule=Host(`${DOMAIN_NAME}`)
+      - traefik.http.routers.sourcify.tls=true
+      - traefik.http.routers.sourcify.entrypoints=websecure
+      - 'traefik.http.routers.sourcify.rule=PathPrefix(`/${SUBFOLDER}{regex:$$|/.*}`)'
+      - 'traefik.http.middlewares.sourcify-stripprefix.stripprefix.prefixes=/${SUBFOLDER}'
+      - 'traefik.http.routers.sourcify.middlewares=sourcify-stripprefix'
+      - traefik.http.routers.sourcify.tls.certresolver=mytlschallenge
+      - traefik.http.middlewares.sourcify.headers.SSLRedirect=true
+      - traefik.http.middlewares.sourcify.headers.STSSeconds=315360000
+      - traefik.http.middlewares.sourcify.headers.browserXSSFilter=true
+      - traefik.http.middlewares.sourcify.headers.contentTypeNosniff=true
+      - traefik.http.middlewares.sourcify.headers.forceSTSHeader=true
+      - traefik.http.middlewares.sourcify.headers.SSLHost=${DOMAIN_NAME}
+      - traefik.http.middlewares.sourcify.headers.STSIncludeSubdomains=true
+      - traefik.http.middlewares.sourcify.headers.STSPreload=true
+    environment:
+      - sourcify_BASIC_AUTH_ACTIVE=true
+      - sourcify_BASIC_AUTH_USER
+      - sourcify_BASIC_AUTH_PASSWORD
+      - sourcify_HOST=${DOMAIN_NAME}
+      - sourcify_PORT=5678
+      - sourcify_PROTOCOL=https
+      - NODE_ENV=production
+      - sourcify_PATH
+      - WEBHOOK_URL=https://${DOMAIN_NAME}${sourcify_PATH}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${DATA_FOLDER}/.sourcify:/home/node/.sourcify

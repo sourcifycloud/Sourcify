@@ -1,0 +1,45 @@
+{
+	"node": "sourcify-nodes-base.start",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.start/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with sourcify can change your daily life",
+				"icon": "🧬",
+				"url": "https://sourcify.io/blog/why-business-process-automation-with-sourcify-can-change-your-daily-life/"
+			},
+			{
+				"label": "Why I chose sourcify over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://sourcify.io/blog/why-i-chose-sourcify-over-zapier-in-2020/"
+			},
+			{
+				"label": "Automatically pulling and visualizing data with sourcify",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/automatically-pulling-and-visualizing-data-with-sourcify/"
+			},
+			{
+				"label": "How to use the HTTP Request Node - The Swiss Army Knife for Workflow Automation",
+				"icon": "🧰",
+				"url": "https://sourcify.io/blog/how-to-use-the-http-request-node-the-swiss-army-knife-for-workflow-automation/"
+			},
+			{
+				"label": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and sourcify",
+				"icon": "📱",
+				"url": "https://sourcify.io/blog/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-sourcify/"
+			},
+			{
+				"label": "Automating Conference Organization Processes with sourcify",
+				"icon": "🙋‍♀️",
+				"url": "https://sourcify.io/blog/automating-conference-organization-processes-with-sourcify/"
+			}
+		]
+	}
+}

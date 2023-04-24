@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.humanticAi",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/humanticAi"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.humanticai/"
+			}
+		],
+		"generic": [
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://sourcify.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			}
+		]
+	}
+}

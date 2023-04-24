@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.eventbriteTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/eventbrite"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.eventbritetrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://sourcify.io/blog/your-business-doesnt-need-you-to-operate/"
+			}
+		]
+	}
+}

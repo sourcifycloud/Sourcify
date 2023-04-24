@@ -1,0 +1,24 @@
+{
+	"node": "sourcify-nodes-base.errorTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "In sourcify, when a workflow execution fails, it can start another workflow. This second workflow can be any arbitrary workflow on your sourcify instance. Use the Error Trigger node as your Trigger in the Error workflow.",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.errortrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Creating Error Workflows in sourcify",
+				"icon": "🌪",
+				"url": "https://sourcify.io/blog/creating-error-workflows-in-sourcify/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Helpers", "Other Trigger Nodes"]
+	}
+}

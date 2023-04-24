@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.rocketchat",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/rocketchat"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.rocketchat/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate Designs with Bannerbear and sourcify",
+				"icon": "🎨",
+				"url": "https://sourcify.io/blog/automate-designs-with-bannerbear-and-sourcify/"
+			}
+		]
+	}
+}

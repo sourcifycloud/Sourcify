@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.asana",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/asana"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.asana/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How a digital strategist uses sourcify for online marketing",
+				"icon": "💻",
+				"url": "https://sourcify.io/blog/how-a-digital-strategist-uses-sourcify-for-online-marketing/"
+			}
+		]
+	}
+}

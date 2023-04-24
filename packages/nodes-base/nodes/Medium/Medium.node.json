@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.medium",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/medium"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.medium/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn how to automatically cross-post your content with sourcify",
+				"icon": "✍️",
+				"url": "https://sourcify.io/blog/learn-how-to-automatically-cross-post-your-content-with-sourcify/"
+			}
+		]
+	}
+}

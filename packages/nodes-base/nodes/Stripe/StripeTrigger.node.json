@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.stripeTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/stripe"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.stripetrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate your customer journey with sourcify: An interview with Blent.ai",
+				"icon": "🚀",
+				"url": "https://sourcify.io/blog/automate-your-customer-journey-with-sourcify-an-interview-with-blent-ai/"
+			}
+		]
+	}
+}

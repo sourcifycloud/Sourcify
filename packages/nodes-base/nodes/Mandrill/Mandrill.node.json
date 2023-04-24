@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.mandrill",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/mandrill"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.mandrill/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s sourcify journey",
+				"icon": "❤️",
+				"url": "https://sourcify.io/blog/love-at-first-sight-ricardos-sourcify-journey/"
+			}
+		]
+	}
+}

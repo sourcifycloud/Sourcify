@@ -1,0 +1,29 @@
+{
+	"node": "sourcify-nodes-base.pagerDuty",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/pagerDuty"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.pagerduty/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Automate Your Factory's Incident Reporting: A Step by Step Guide",
+				"icon": "🏭",
+				"url": "https://sourcify.io/blog/learn-to-automate-your-factorys-incident-reporting-a-step-by-step-guide/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://sourcify.io/blog/creating-custom-incident-response-workflows-with-sourcify/"
+			}
+		]
+	}
+}

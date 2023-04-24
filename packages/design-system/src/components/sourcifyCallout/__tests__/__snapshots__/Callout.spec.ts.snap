@@ -1,0 +1,93 @@
+// Vitest Snapshot v1
+
+exports[`components > sourcifyCallout > should render additional slots correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout custom\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"code-branch\\" size=\\"large\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is a secondary callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp; <sourcify-link-stub size=\\"small\\">Do something!</sourcify-link-stub>
+  </div>
+  <sourcify-link-stub theme=\\"secondary\\" size=\\"small\\" bold=\\"true\\" underline=\\"true\\" to=\\"https://sourcify.io\\">Learn more</sourcify-link-stub>
+</div>"
+`;
+
+exports[`components > sourcifyCallout > should render custom theme correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout custom\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"code-branch\\" size=\\"large\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is a secondary callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp;
+  </div>
+</div>"
+`;
+
+exports[`components > sourcifyCallout > should render danger theme correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout danger\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"times-circle\\" size=\\"large\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is a danger callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp;
+  </div>
+</div>"
+`;
+
+exports[`components > sourcifyCallout > should render info theme correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout info\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"info-circle\\" size=\\"large\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is an info callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp;
+  </div>
+</div>"
+`;
+
+exports[`components > sourcifyCallout > should render secondary theme correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout secondary\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"info-circle\\" size=\\"medium\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is a secondary callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp;
+  </div>
+</div>"
+`;
+
+exports[`components > sourcifyCallout > should render success theme correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout success\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"check-circle\\" size=\\"large\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is a success callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp;
+  </div>
+</div>"
+`;
+
+exports[`components > sourcifyCallout > should render warning theme correctly 1`] = `
+"<div role=\\"alert\\" class=\\"sourcify-callout callout warning\\">
+  <div class=\\"message-section\\">
+    <div class=\\"icon\\">
+      <sourcify-icon-stub icon=\\"exclamation-triangle\\" size=\\"large\\"></sourcify-icon-stub>
+    </div>
+    <sourcify-text-stub size=\\"small\\" tag=\\"span\\">
+      <sourcify-text-stub size=\\"small\\" tag=\\"span\\">This is a warning callout.</sourcify-text-stub>
+    </sourcify-text-stub> &nbsp;
+  </div>
+</div>"
+`;

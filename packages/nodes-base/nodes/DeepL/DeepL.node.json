@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.deepL",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/deepL"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.deepl/"
+			}
+		]
+	},
+	"alias": ["Translate", "Translator"]
+}

@@ -1,0 +1,15 @@
+{
+	"node": "sourcify-nodes-base.ssh",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes", "Development"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.ssh/"
+			}
+		]
+	},
+	"alias": ["remote"],
+	"subcategories": ["Helpers"]
+}

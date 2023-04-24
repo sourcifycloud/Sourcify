@@ -1,0 +1,35 @@
+{
+	"node": "sourcify-nodes-base.bannerbear",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/bannerbear"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.bannerbear/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate Designs with Bannerbear and sourcify",
+				"icon": "🎨",
+				"url": "https://sourcify.io/blog/automate-designs-with-bannerbear-and-sourcify/"
+			},
+			{
+				"label": "Automating Conference Organization Processes with sourcify",
+				"icon": "🙋‍♀️",
+				"url": "https://sourcify.io/blog/automating-conference-organization-processes-with-sourcify/"
+			},
+			{
+				"label": "Benefits of automation and sourcify: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://sourcify.io/blog/benefits-of-automation-and-sourcify-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

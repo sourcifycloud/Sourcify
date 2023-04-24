@@ -1,0 +1,30 @@
+{
+	"node": "sourcify-nodes-base.lingvaNex",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/lingvaNex"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.lingvanex/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021 Goals: Level Up Your Vocabulary With Vonage and sourcify",
+				"icon": "🎯",
+				"url": "https://sourcify.io/blog/2021-goals-level-up-your-vocabulary-with-vonage-and-sourcify/"
+			},
+			{
+				"label": "Celebrating World Poetry Day with a daily poem in Telegram",
+				"icon": "📜",
+				"url": "https://sourcify.io/blog/world-poetry-day-workflow/"
+			}
+		]
+	}
+}

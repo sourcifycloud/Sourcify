@@ -1,0 +1,30 @@
+{
+	"node": "sourcify-nodes-base.mindee",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/mindee"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.mindee/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Building an expense tracking app in 10 minutes",
+				"icon": "📱",
+				"url": "https://sourcify.io/blog/building-an-expense-tracking-app-in-10-minutes/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://sourcify.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			}
+		]
+	}
+}

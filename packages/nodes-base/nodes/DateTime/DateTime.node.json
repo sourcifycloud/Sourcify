@@ -1,0 +1,28 @@
+{
+	"node": "sourcify-nodes-base.dateTime",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.datetime/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://sourcify.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://sourcify.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Helpers", "Data Transformation"]
+	}
+}

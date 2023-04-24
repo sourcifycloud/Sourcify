@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.quickChart",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/credentials/quickchart"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.quickchart/"
+			}
+		]
+	},
+	"alias": ["image", "graph", "report", "chart", "diagram", "data", "visualize"]
+}

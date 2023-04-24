@@ -1,0 +1,24 @@
+{
+	"node": "sourcify-nodes-base.xml",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.xml/"
+			}
+		],
+		"generic": [
+			{
+				"label": "What are APIs and how to use them with no code",
+				"icon": " 🪢",
+				"url": "https://sourcify.io/blog/what-are-apis-how-to-use-them-with-no-code/"
+			}
+		]
+	},
+	"alias": ["Parse"],
+	"subcategories": {
+		"Core Nodes": ["Files", "Data Transformation"]
+	}
+}

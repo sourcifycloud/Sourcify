@@ -1,0 +1,35 @@
+{
+	"node": "sourcify-nodes-base.twitter",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/twitter"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.twitter/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://sourcify.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://sourcify.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-sourcify/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at sourcify",
+				"icon": "🤖",
+				"url": "https://sourcify.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-sourcify/"
+			}
+		]
+	}
+}

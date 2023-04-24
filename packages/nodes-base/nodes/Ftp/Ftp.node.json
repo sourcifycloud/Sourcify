@@ -1,0 +1,22 @@
+{
+	"node": "sourcify-nodes-base.ftp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes", "Data & Storage", "Development", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/ftp"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.ftp/"
+			}
+		]
+	},
+	"alias": ["SFTP"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

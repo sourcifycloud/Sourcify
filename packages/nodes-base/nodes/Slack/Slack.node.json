@@ -1,0 +1,55 @@
+{
+	"node": "sourcify-nodes-base.slack",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/slack"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.slack/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://sourcify.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://sourcify.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-sourcify/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://sourcify.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://sourcify.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "Build your own virtual assistant with sourcify: A step by step guide",
+				"icon": "👦",
+				"url": "https://sourcify.io/blog/build-your-own-virtual-assistant-with-sourcify-a-step-by-step-guide/"
+			},
+			{
+				"label": "How to automatically give kudos to contributors with GitHub, Slack, and sourcify",
+				"icon": "👏",
+				"url": "https://sourcify.io/blog/how-to-automatically-give-kudos-to-contributors-with-github-slack-and-sourcify/"
+			},
+			{
+				"label": "How Common Knowledge use workflow automation for activism",
+				"icon": "✨",
+				"url": "https://sourcify.io/blog/automations-for-activists/"
+			}
+		]
+	}
+}

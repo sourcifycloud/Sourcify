@@ -1,0 +1,18 @@
+{
+	"node": "sourcify-nodes-base.acuitySchedulingTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/acuityScheduling"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/trigger-nodes/sourcify-nodes-base.acuityschedulingtrigger/"
+			}
+		]
+	}
+}

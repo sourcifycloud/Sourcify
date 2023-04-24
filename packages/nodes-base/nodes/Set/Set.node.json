@@ -1,0 +1,128 @@
+{
+	"node": "sourcify-nodes-base.set",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.set/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Automate Your Factory's Incident Reporting: A Step by Step Guide",
+				"icon": "🏭",
+				"url": "https://sourcify.io/blog/learn-to-automate-your-factorys-incident-reporting-a-step-by-step-guide/"
+			},
+			{
+				"label": "2021: The Year to Automate the New You with sourcify",
+				"icon": "☀️",
+				"url": "https://sourcify.io/blog/2021-the-year-to-automate-the-new-you-with-sourcify/"
+			},
+			{
+				"label": "Automatically pulling and visualizing data with sourcify",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/automatically-pulling-and-visualizing-data-with-sourcify/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with sourcify",
+				"icon": "📡",
+				"url": "https://sourcify.io/blog/database-monitoring-and-alerting-with-sourcify/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and sourcify",
+				"icon": "🧾",
+				"url": "https://sourcify.io/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-sourcify/"
+			},
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://sourcify.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "How to build a low-code, self-hosted URL shortener in 3 steps",
+				"icon": "🔗",
+				"url": "https://sourcify.io/blog/how-to-build-a-low-code-self-hosted-url-shortener/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://sourcify.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-sourcify/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://sourcify.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://sourcify.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://sourcify.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://sourcify.io/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "Building an expense tracking app in 10 minutes",
+				"icon": "📱",
+				"url": "https://sourcify.io/blog/building-an-expense-tracking-app-in-10-minutes/"
+			},
+			{
+				"label": "The ultimate guide to automate your video collaboration with Whereby, Mattermost, and sourcify",
+				"icon": "📹",
+				"url": "https://sourcify.io/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-sourcify/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at sourcify",
+				"icon": "🤖",
+				"url": "https://sourcify.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-sourcify/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://sourcify.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			},
+			{
+				"label": "A low-code bitcoin ticker built with QuestDB and sourcify.io",
+				"icon": "📈",
+				"url": "https://sourcify.io/blog/a-low-code-bitcoin-ticker-built-with-questdb-and-sourcifycloud/"
+			},
+			{
+				"label": "How to set up a no-code CI/CD pipeline with GitHub and TravisCI",
+				"icon": "🎡",
+				"url": "https://sourcify.io/blog/how-to-set-up-a-ci-cd-pipeline-with-no-code/"
+			},
+			{
+				"label": "Benefits of automation and sourcify: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://sourcify.io/blog/benefits-of-automation-and-sourcify-an-interview-with-hubspots-hugh-durkin/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 sourcify workflows",
+				"icon": "🛵",
+				"url": "https://sourcify.io/blog/how-goomer-automated-their-operations-with-over-200-sourcify-workflows/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://sourcify.io/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["JSON", "Filter", "Transform", "Map"],
+	"subcategories": {
+		"Core Nodes": ["Data Transformation"]
+	}
+}

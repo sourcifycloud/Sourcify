@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.grafana",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/grafana"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.grafana/"
+			}
+		]
+	},
+	"alias": ["Prometheus"]
+}

@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`sourcifyInfoTip > should render correctly as note 1`] = `"<div class=\\"sourcify-info-tip info note bold\\"><span class=\\"iconText\\"><span class=\\"sourcify-icon sourcify-text compact size-medium regular\\"></span><span>Need help doing something?<a href=\\"/docs\\" target=\\"_blank\\">Open docs</a></span></span></div>"`;
+
+exports[`sourcifyInfoTip > should render correctly as tooltip 1`] = `
+"<div class=\\"sourcify-info-tip info tooltip bold\\">
+  <sourcify-tooltip-stub justifybuttons=\\"flex-end\\" buttons=\\"\\" placement=\\"top\\" popper-class=\\"tooltipPopper\\"><span class=\\"iconText\\"><span class=\\"sourcify-icon sourcify-text compact size-medium regular\\"></span></span></sourcify-tooltip-stub>
+</div>"
+`;

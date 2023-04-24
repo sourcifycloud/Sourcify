@@ -1,0 +1,25 @@
+{
+	"node": "sourcify-nodes-base.clickUp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/clickUp"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.clickup/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with sourcify",
+				"icon": "☀️",
+				"url": "https://sourcify.io/blog/2021-the-year-to-automate-the-new-you-with-sourcify/"
+			}
+		]
+	}
+}

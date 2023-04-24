@@ -1,0 +1,88 @@
+{
+	"node": "sourcify-nodes-base.webhook",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/core-nodes/sourcify-nodes-base.webhook/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn how to automatically cross-post your content with sourcify",
+				"icon": "✍️",
+				"url": "https://sourcify.io/blog/learn-how-to-automatically-cross-post-your-content-with-sourcify/"
+			},
+			{
+				"label": "Running sourcify on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://sourcify.io/blog/running-sourcify-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "How to build a low-code, self-hosted URL shortener in 3 steps",
+				"icon": "🔗",
+				"url": "https://sourcify.io/blog/how-to-build-a-low-code-self-hosted-url-shortener/"
+			},
+			{
+				"label": "What are APIs and how to use them with no code",
+				"icon": " 🪢",
+				"url": "https://sourcify.io/blog/what-are-apis-how-to-use-them-with-no-code/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://sourcify.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "How a digital strategist uses sourcify for online marketing",
+				"icon": "💻",
+				"url": "https://sourcify.io/blog/how-a-digital-strategist-uses-sourcify-for-online-marketing/"
+			},
+			{
+				"label": "The ultimate guide to automate your video collaboration with Whereby, Mattermost, and sourcify",
+				"icon": "📹",
+				"url": "https://sourcify.io/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-sourcify/"
+			},
+			{
+				"label": "How to automatically give kudos to contributors with GitHub, Slack, and sourcify",
+				"icon": "👏",
+				"url": "https://sourcify.io/blog/how-to-automatically-give-kudos-to-contributors-with-github-slack-and-sourcify/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at sourcify",
+				"icon": "🤖",
+				"url": "https://sourcify.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-sourcify/"
+			},
+			{
+				"label": "Why this Product Manager loves workflow automation with sourcify",
+				"icon": "🧠",
+				"url": "https://sourcify.io/blog/why-this-product-manager-loves-workflow-automation-with-sourcify/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://sourcify.io/blog/creating-custom-incident-response-workflows-with-sourcify/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://sourcify.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Learn how to use webhooks with Mattermost slash commands",
+				"icon": "🦄",
+				"url": "https://sourcify.io/blog/learn-how-to-use-webhooks-with-mattermost-slash-commands/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 sourcify workflows",
+				"icon": "🛵",
+				"url": "https://sourcify.io/blog/how-goomer-automated-their-operations-with-over-200-sourcify-workflows/"
+			}
+		]
+	},
+	"alias": ["HTTP", "API", "Build", "WH"],
+	"subcategories": {
+		"Core Nodes": ["Flow"]
+	}
+}

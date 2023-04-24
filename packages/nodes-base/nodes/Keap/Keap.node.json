@@ -1,0 +1,19 @@
+{
+	"node": "sourcify-nodes-base.keap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/credentials/keap"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.sourcify.io/integrations/builtin/app-nodes/sourcify-nodes-base.keap/"
+			}
+		]
+	},
+	"alias": ["Infusionsoft"]
+}
